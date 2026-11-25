@@ -1,26 +1,30 @@
 # Zachary Roseman
 
-**Computational Data Science | Michigan State University | May 2027**
+**Computational Data Science · Michigan State University · Class of 2027**
 
-Interested in machine learning, predictive modeling, artificial intelligence, and practical applications of data science in business and sports.
+I am interested in predictive modeling, machine learning, and applying data science to real-world business and sports decisions.
 
-## Featured projects
+[LinkedIn](https://www.linkedin.com/in/zachary-roseman/) · [Explore my repositories](https://github.com/zrose1211?tab=repositories)
 
-| Project | Technical focus | Status |
+## Selected projects
+
+| Project | Methods | Results and status |
 | --- | --- | --- |
-| [Real Estate Market Forecasting](https://github.com/zrose1211/real-estate-investment-predictor) | Ridge regression, ensemble comparison, investment scenarios | Zillow pipeline; refreshed results pending |
-| [Economic Cycle Forecasting](https://github.com/zrose1211/us-economic-cycle-forecasting) | Python, SQL, chronological validation, ridge regression | FRED pipeline; refreshed results pending |
-| [Handwritten Digit Classification](https://github.com/zrose1211/handwritten-digit-classification) | SVM, PCA, cross-validation, error analysis | Held-out results reported |
-| [NBA Player Performance Predictor](https://github.com/zrose1211/nba-player-performance-predictor) | Feature engineering, ensemble regression, temporal validation | 2025–26 loader; evaluation pending |
+| [Real Estate Market Forecasting](https://github.com/zrose1211/real-estate-investment-predictor) | Regression, ensemble models, investment scenarios | [Historical Texas benchmark](https://github.com/zrose1211/real-estate-investment-predictor/blob/main/reports/metrics.json); [Zillow refresh](https://github.com/zrose1211/real-estate-investment-predictor/actions) |
+| [U.S. Economic Cycle Forecasting](https://github.com/zrose1211/us-economic-cycle-forecasting) | Time series, SQL, ridge regression | [Historical quarterly benchmark](https://github.com/zrose1211/us-economic-cycle-forecasting/blob/main/reports/metrics.json); [FRED refresh](https://github.com/zrose1211/us-economic-cycle-forecasting/actions) |
+| [Handwritten Digit Classification](https://github.com/zrose1211/handwritten-digit-classification) | SVM, PCA, model selection, error analysis | [97.5% held-out accuracy](https://github.com/zrose1211/handwritten-digit-classification/blob/main/reports/metrics.json) |
+| [NBA Player Performance Predictor](https://github.com/zrose1211/nba-player-performance-predictor) | Feature engineering, ensemble regression, chronological validation | [2025–26 evaluation workflow](https://github.com/zrose1211/nba-player-performance-predictor/actions) |
 
-## Technical toolkit
+Each project includes its methodology, source code, evaluation procedure, and reproduction instructions. Current-data workflows report results separately from historical benchmarks.
 
-- **Languages:** Python, R, SQL, C++, Java, MATLAB
-- **Data science:** pandas, NumPy, scikit-learn, statistical modeling, data visualization
-- **Tools:** Git, Jupyter, SQLite, Excel
+## Technical skills
 
-## Professional interests
+**Programming:** Python, R, SQL, C++, Java, MATLAB
 
-Real estate business analytics, predictive modeling, machine learning and sports analytics. Interested in turning quantitative analysis into practical, evidence-based decisions.
+**Data science:** pandas, NumPy, scikit-learn, statistical modeling, machine learning, data visualization
 
-[LinkedIn](https://www.linkedin.com/in/zachary-roseman/) · [All repositories](https://github.com/zrose1211?tab=repositories)
+**Tools:** Git, Jupyter, SQLite, Excel
+
+## Professional focus
+
+Real estate market research and investment analysis, predictive modeling, and sports analytics.
