@@ -10,6 +10,7 @@ Interested in machine learning, predictive modeling, and practical applications 
 | --- | --- |
 | [Economic Cycle Forecasting](https://github.com/zrose1211/us-economic-cycle-forecasting) | Python, SQL, time-series validation, ridge regression |
 | [Handwritten Digit Classification](https://github.com/zrose1211/handwritten-digit-classification) | SVM, PCA, cross-validation, error analysis |
+| [Real Estate Market Forecasting](https://github.com/zrose1211/real-estate-investment-predictor) | Ridge regression, ensemble comparison, investment scenarios |
 
 ## Technical skills
 
