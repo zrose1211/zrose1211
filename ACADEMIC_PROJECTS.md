@@ -28,28 +28,32 @@ The original group repository is private; this case study summarizes the project
 
 ## College Football Outcome Predictor
 
-**CMSE 201 — Computational Modeling and Data Analysis I | Fall 2024 | Individual project**
+**CMSE 201 | Fall 2024 | Individual project**
 
-### Objective
-Investigate which offensive, defensive and turnover statistics are associated with college football outcomes and compare two classification models.
+[View the portfolio notebook](academic/college-football/college_football_classification.ipynb)
 
-### Methods
-- Prepared a binary win target from 2023 season win-loss data.
-- Used numerical features to compare logistic regression and decision tree classifiers.
-- Evaluated accuracy, precision and recall with Python, pandas, scikit-learn and Matplotlib.
+The original project explored classification of college football team performance using 2023 season statistics. The target is a winning season (win rate greater than 50%), not an individual game outcome.
 
-### Results reported in the original December 2024 presentation
+### Methods and recorded results
 
-| Model | Accuracy | Precision | Recall |
-| --- | ---: | ---: | ---: |
-| Logistic regression | 78% | 88% | 89% |
-| Decision tree | 73% | 75% | 74% |
+A 70/30 train-test split (random seed 42) was used to compare logistic regression with a depth-five decision tree. The original notebook records 40 test observations.
 
-The presentation identifies nonstandard win-loss entries as a data-cleaning challenge and possible decision tree overfitting. These are the original reported metrics, not newly reproduced results. The original code and split have not been rechecked, and season-level statistics may contain information unavailable before a game. A future version would use pregame features and chronological validation.
+| Model | Accuracy | Winning-season precision | Winning-season recall | Winning-season F1 |
+| --- | ---: | ---: | ---: | ---: |
+| Logistic regression | 77.5% | 71% | 89% | 79% |
+| Decision tree | 72.5% | 70% | 74% | 72% |
 
-### Data sources
-- [CollegeFootballData](https://collegefootballdata.com/)
-- [College Football Team Stats Seasons 2013 to 2023 (Kaggle)](https://www.kaggle.com/datasets/jeffgallini/college-football-team-stats-2019)
-- [scikit-learn](https://scikit-learn.org/)
+### Limitations
+The recorded input schema shows only one numeric column before target creation; the original numeric-only selection may have used the exported row index rather than intended football statistics. These historical results are retained for transparency and are not a validated pregame forecast. The portfolio notebook preserves the original modeling code with condensed documentation; the original CSV is required to rerun. Future improvements include explicit numeric conversion, identifier exclusion, feature availability checks and chronological validation.
+
+Data: [College Football Team Stats Seasons 2013 to 2023](https://www.kaggle.com/datasets/jeffgallini/college-football-team-stats-2019).
+
+## NBA Game Outcome Prediction
+
+**CSE 482 | Fall 2026 | Group project — in progress**
+
+Predict home-team wins using recent team performance and rest. The first report analyzes regular-season records from 2022–23 through 2025–26 and compares logistic regression, random forest and a majority-class baseline. This is distinct from the player-level scoring project.
+
+The first-report evaluation is complete; final project work and public release of the group notebook are pending.
 
 [Back to portfolio](README.md)
