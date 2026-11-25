@@ -24,7 +24,7 @@ The final saved notebook ranks Cam Ward (QB, Miami) first, with a composite scor
 
 This is a historical draft decision-support case study, not a calibrated probability model. The weighted ranking relies heavily on consensus draft position, and its team classifications are exploratory rather than independently validated predictors. A multi-year evaluation and weight sensitivity analysis would be useful extensions.
 
-The original group repository is private; this case study summarizes the project without redistributing group source code.
+The original group repository remains private. [Public portfolio edition: notebook, datasets and rankings](https://github.com/zrose1211/nfl-draft-selection-analysis). The public copy preserves the group-project attribution and distinguishes my contributions.
 
 ## College Football Outcome Predictor
 
