@@ -17,6 +17,15 @@ I am interested in predictive modeling, machine learning, and applying data scie
 
 Each project includes its methodology, source code, evaluation procedure, and reproduction instructions. Current-data workflows report results separately from historical benchmarks.
 
+## Academic projects
+
+| Project | Course | Highlights |
+| --- | --- | --- |
+| [NFL Draft Selection Analysis](ACADEMIC_PROJECTS.md#2025-nfl-draft-selection-analysis) | CMSE 202 · Spring 2025 | Team performance analysis, weighted ranking of 15 prospects, group project |
+| [College Football Outcome Predictor](ACADEMIC_PROJECTS.md#college-football-outcome-predictor) | CMSE 201 · Fall 2024 | Logistic regression and decision trees; 78% and 73% accuracy reported in the original presentation |
+
+[Read the academic project case studies](ACADEMIC_PROJECTS.md).
+
 ## Technical skills
 
 **Programming:** Python, R, SQL, C++, Java, MATLAB
