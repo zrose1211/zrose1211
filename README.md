@@ -22,7 +22,8 @@ Each project includes its methodology, source code, evaluation procedure, and re
 | Project | Course | Highlights |
 | --- | --- | --- |
 | [NFL Draft Selection Analysis](ACADEMIC_PROJECTS.md#2025-nfl-draft-selection-analysis) | CMSE 202 · Spring 2025 | Team performance analysis, weighted ranking of 15 prospects, group project |
-| [College Football Outcome Predictor](ACADEMIC_PROJECTS.md#college-football-outcome-predictor) | CMSE 201 · Fall 2024 | Logistic regression and decision trees; 78% and 73% accuracy reported in the original presentation |
+| [College Football Outcome Predictor](ACADEMIC_PROJECTS.md#college-football-outcome-predictor) | CMSE 201 · Fall 2024 | Winning-season classification; original notebook and limitations |
+| [NBA Game Outcome Prediction](ACADEMIC_PROJECTS.md#nba-game-outcome-prediction) | CSE 482 · Fall 2026 | Pregame rolling features, chronological evaluation; in progress |
 
 [Read the academic project case studies](ACADEMIC_PROJECTS.md).
 
